@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="60dp"
+    android:layout_marginRight="60dp"
+    tools:context="com.example.syanaz.syanaztasia_1202152327_modul2.DineIn">
+
+    <TextView
+        android:id="@+id/detail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/detail_customer"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="40dp"/>
+
+    <EditText
+        android:id="@+id/nama_customer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/detail"
+        android:layout_marginBottom="10dp"
+        android:hint="@string/name"
+        android:inputType="textCapWords"/>
+
+    <TextView
+        android:id="@+id/no_meja"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nama_customer"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/nomor_meja"
+        android:textAlignment="center"
+        android:textSize="18sp" />
+
+    <Spinner
+        android:id="@+id/label_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/no_meja"
+        android:layout_marginLeft="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_toEndOf="@+id/no_meja"
+        android:layout_toRightOf="@+id/no_meja" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:layout_below="@+id/no_meja"
+        android:onClick="buttonPilih"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="#ffffff"
+        android:text="@string/pilih_pesan"/>
+
+</RelativeLayout>

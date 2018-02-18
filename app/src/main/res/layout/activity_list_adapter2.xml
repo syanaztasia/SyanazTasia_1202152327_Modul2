@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/listGambar"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/bibimbap"
+        />
+
+    <TextView
+        android:id="@+id/listNama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/listGambar"
+        android:paddingTop="15dp"
+        android:text="Bibimbap"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/listHarga"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/listNama"
+        android:layout_toRightOf="@+id/listGambar"
+        android:text="Rp. 30.000"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/ID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/listHarga"
+        android:layout_toRightOf="@+id/listGambar"
+        android:visibility="invisible"
+        android:text="@string/id_makanan" />
+
+    <View
+        android:layout_below="@+id/listGambar"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:background="#ccc"/>
+</RelativeLayout>

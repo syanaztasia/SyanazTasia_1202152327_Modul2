@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">SYANAZTASIA_1202152327_MODUL2</string>
+    <string name="menu_makan">Pilih Menu :</string>
+    <string name="makan_ditempat">Dine In</string>
+    <string name="makan_dibawa">Take Away</string>
+    <string name="pesan_sekarang">PESAN SEKARANG</string>
+    <string name="identitas_pemesanan">Identitas Pemesanan</string>
+    <string name="nama">Nama</string>
+    <string name="phone">Phone</string>
+    <string name="alamat">Alamat</string>
+    <string name="catatan">Catatan</string>
+    <string name="pilih_waktu">Pilih Waktu Pemesanan</string>
+    <string name="time">Time</string>
+    <string name="date">Date</string>
+    <string name="pilih_pesanan">Pilih Pesanan</string>
+    <string name="detail_customer">Detail Customer</string>
+    <string name="name">Nama</string>
+    <string name="nomor_meja">Nomor Meja</string>
+    <string name="pilih_pesan">Pilih Pesanan</string>
+    <string name="bibimbap">Bibimbap</string>
+    <string name="rp_30000">Rp. 30000</string>
+    <string name="deskripsi">Deskripsi</string>
+    <string name="bahan">Sayur, daging, telor</string>
+    <string name="id_makanan">ID Makanan</string>
+    <string-array name="labels_array">
+        <item>Meja Satu</item>
+        <item>Meja Dua</item>
+        <item>Meja Tiga</item>
+        <item>Meja Empat</item>
+    </string-array>
+    <string name="date_picker">datePicker</string>
+    <string name="time_picker">timePicker</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="datee">Date:</string>
+    <string name="timee">Time:</string>
+
+</resources>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginLeft="40dp"
+    android:layout_marginRight="40dp"
+    tools:context="com.example.syanaz.syanaztasia_1202152327_modul2.TakeAway">
+
+    <TextView
+        android:id="@+id/identitas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/identitas_pemesanan"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="20dp"/>
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:hint="@string/nama"
+        android:inputType="textCapWords"/>
+
+    <EditText
+        android:id="@+id/phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:hint="@string/phone"
+        android:inputType="phone"/>
+
+    <EditText
+        android:id="@+id/alamat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:hint="@string/alamat"
+        android:inputType="textMultiLine"/>
+
+    <EditText
+        android:id="@+id/catatan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:hint="@string/catatan"
+        android:inputType="textMultiLine"/>
+
+    <TextView
+        android:id="@+id/pilih_waktu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/pilih_waktu" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/timepicker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="@string/time"
+            android:onClick="showTimePickerDialog"/>
+
+        <Button
+            android:id="@+id/datepicker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="@string/date"
+            android:onClick="showDatePickerDialog"/>
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:onClick="buttonPemesanan"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="#ffffff"
+        android:text="@string/pilih_pesanan"/>
+</LinearLayout>
